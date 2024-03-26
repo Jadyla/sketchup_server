@@ -24,7 +24,7 @@ get '/texture' do
     entity_attr = params['touch']
 
     File.open('C:\Users\Amoradev\AppData\Roaming\SketchUp\SketchUp 2021\SketchUp\Plugins\command.txt', 'w') do |file|
-      file.puts "Sketchup::VRX::CustomizeModel.apply_texture('#{texthttp://localhost:4567/texture?texture=SANTORINE-35-POLIDO&touch=parede_bancadaure}.jpg', '#{entity_attr}')"
+      file.puts "Sketchup::VRX::CustomizeModel.apply_texture('#{texture}.png', '#{entity_attr}')"
     end
 end
 
